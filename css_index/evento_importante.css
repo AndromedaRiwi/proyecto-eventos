@@ -27,6 +27,15 @@ header {
     font-size: 20px !important;
 }
 
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/proyecto-eventos/img/logos/menu.png)
+}
+
 /*Footer*/
 footer {
     background-color: #553726;

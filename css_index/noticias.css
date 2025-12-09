@@ -23,7 +23,11 @@ header {
     margin-right: 0 !important;
 }
 
-.fs-6{
+.fs-6 {
+    font-size: 20px !important;
+}
+
+.navbar-link {
     font-size: 20px !important;
 }
 
@@ -33,10 +37,11 @@ header {
 }
 
 .navbar-light .navbar-toggler-icon {
-    
+    background-image: url(/proyecto-eventos/img/logos/menu.png)
 }
 
 /*Main*/
+
 
 
 /*Footer*/

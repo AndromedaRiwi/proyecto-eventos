@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+    width: auto !important;
+}
+
+.fondo-completo {
+    background-image: url(/proyecto-eventos/img/logos/fondo_principal.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1; /*queda detras de todo*/
+}
+
+/*Header*/
+
+.navbar .container-fluid {
+    padding: 3 !important;
+    margin: 3 !important;
+    padding-left: 0 !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}

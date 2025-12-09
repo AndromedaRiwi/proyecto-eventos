@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden;
+    width: auto !important;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Header*/
+header {
+    background-color: #553726;
+}
+
+.navbar {
+    padding: 3 !important;
+    margin: 3 !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.fs-6{
+    font-size: 20px !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    
+}
+
+/*Main*/
+
+
+/*Footer*/
+footer {
+    background-color: #553726;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

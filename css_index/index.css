@@ -45,7 +45,7 @@ section {
     background: #BB1515;
     background: linear-gradient(90deg,rgba(187, 21, 21, 1) 0%, rgba(85, 10, 10, 1) 100%);   
     height: 225px;
-    border: 2px solid black;
+    border: 2px solid #303030;
 }
 
 section div {
@@ -75,4 +75,5 @@ section div {
     width: 300px;
     margin: 0 0 0 60px;
     border-radius: 100px;
+    border: 2px solid #303030;
 }

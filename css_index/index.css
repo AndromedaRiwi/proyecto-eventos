@@ -54,7 +54,7 @@ section div {
 
 .food {
     padding-top: 0;
-    font-size: clamp(35px, 6vw, 90px);
+    font-size: clamp(45px, 7vw, 100px);
     color: #303030;
 }
 
@@ -69,4 +69,10 @@ section div {
     font-family: "Beiruti", sans-serif;
 }
 
-
+.bt-evento, .bt-noticias {
+    background: #BB1515;
+    background: linear-gradient(90deg,rgba(187, 21, 21, 1) 0%, rgba(85, 10, 10, 1) 100%);   
+    width: 300px;
+    margin: 0 0 0 60px;
+    border-radius: 100px;
+}

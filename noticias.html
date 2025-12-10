@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Noticias | FoodMaster</title>
+    <!--Tipo de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--Link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Link de CSS-->
+    <link rel="stylesheet" href="/proyecto-eventos/css_index/noticias.css">
+
 </head>
 <body>
-    
-=======
-    <title>Document</title>
-</head>
-<body>
-        <div class="fondo-completo"></div>
+    <div class="fondo-completo"></div>
+    <!--Header-->
     <header>
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-fluid">
@@ -22,24 +26,29 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item px-2">                        
-                            <a class="navbar-brand d-flex flex-column align-items-center " href="#">
-                                <img src="/proyecto-eventos/img/logos/login.png" alt="" width="45" height="40" class="d-inline-block align-text-top">
-                                <span class="fs-6 text-white">LOGIN</span>
+                <div class="collapse navbar-collapse justify-content-between " id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-3 gap-lg-5 align-items-center fw-medium">                        
+                        <li class="nav-item px-2">
+                            <a class="navbar-link text-white text-center text-decoration-none" href="/proyecto-eventos/index.html">
+                                INICIO
                             </a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="navbar-brand d-flex flex-column align-items-center " href="#">
+                            <a class="navbar-brand d-flex align-items-center " href="/proyecto-eventos/categorias.html">
+                                <span class="fs-6 text-white mx-2">CATEGORIAS</span>
                                 <img src="/proyecto-eventos/img/logos/logo_categorias.png" alt="" width="45" height="40" class="d-inline-block align-text-top">
-                                <span class="fs-6 text-white">CATEGORIAS</span>
                             </a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="navbar-brand d-flex flex-column align-items-center " href="#">
+                            <a class="navbar-brand d-flex align-items-center " href="#">
+                                <span class="fs-6 text-white mx-2">CARRITO</span>
                                 <img src="/proyecto-eventos/img/logos/carrito_de_compras.png" alt="" width="45" height="40" class="d-inline-block align-text-top">
-                                <span class="fs-6 text-white">CARRITO</span>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">                        
+                            <a class="navbar-brand d-flex align-items-center " href="#">
+                                <span class="fs-6 text-white mx-2"> INICIO SESIÓN </span>
+                                <img src="/proyecto-eventos/img/logos/login.png" alt="" width="45" height="40" class="d-inline-block align-text-top">
                             </a>
                         </li>
                     </ul>
@@ -49,7 +58,95 @@
     </header>
     <!--Link de JS de bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--Main-->
+    <main>
+        <div class="container text-center container-noticias">
+            <div class="row">
+                <h4 class="text-center p-3 text-white">Noticias</h4>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg 6 py-3">
+                    <h3 class="text-center text-white">Cocina de manera saludable!</h3>
+                    <a href="#"><img class="noticias-img" src="/proyecto-eventos/img/img_eventos/noticia2.jpg" alt=""></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg 6 py-3">
+                    <h3 class="text-center text-white">Proximo Burger Master!</h3>
+                    <a href="#"><img class="noticias-img" src="/proyecto-eventos/img/img_eventos/noticia3.jpg" alt=""></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg 6 py-3">
+                    <h3 class="text-center text-white">Recetas de la abuela!</h3>
+                    <a href="#"><img class="noticias-img" src="/proyecto-eventos/img/img_eventos/noticia4.jpg" alt=""></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg 6 py-3">
+                    <h3 class="text-center text-white">Aprendiendo a cocinar!</h3>
+                    <a href="#"><img class="noticias-img" src="/proyecto-eventos/img/img_eventos/noticia1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
 
->>>>>>> valentina-palacio
+        <div class="container text-center container-testimonios">
+            <h4 class="text-center p-3 text-white h4-testimonios">Testimonios</h4>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner text-white p-5">
+                    <div class="carousel-item active">
+                        <h2>Testimonio Pablo</h2>
+                        <p class="parrafo-testimonios">
+                            "¡Increíble variedad! Probé un plato que nunca imaginé y fue mi favorito. Valió la pena cada bocado."
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Testimonio Tatiana</h2>
+                        <p class="parrafo-testimonios">
+                            "La atmósfera era genial, con música y mucha gente feliz. La comida deliciosa, la vibra, insuperable."
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Testimonio Daniela</h2>
+                        <p class="parrafo-testimonios">                            
+                            "Solo productos frescos y chefs talentosos. Un nivel de sabor espectacular y muy auténtico."
+                        </p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="text-white py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-3 text-center text-lg-start">
+                    <span class="fs-5 ">CONTACTANOS</span>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <div class="d-flex justify-content-center gap-4 gap-lg-5 mx-10">
+                        <a href="#" class="text-white gap-lg-5">
+                            <img width="45" height="40" src="/proyecto-eventos/img/logos/instagram.png" alt="">
+                        </a>
+                        <a href="#" class="text-white gap-lg-5">
+                            <img width="45" height="40" src="/proyecto-eventos/img/logos/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="text-white gap-lg-5">
+                            <img width="45" height="40" src="/proyecto-eventos/img/logos/tiktok.png" alt="">
+                        </a>
+                        <a href="#" class="text-white gap-lg-5 pt-2">
+                            <img width="45" height="40" src="/proyecto-eventos/img/logos/youtube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-end">
+                    <span class="small">COPYRIGHT © FOODMASTER</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

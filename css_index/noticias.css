@@ -10,7 +10,11 @@ body {
 /*Header*/
 header {
     background-color: #553726;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
 
 .navbar {
     padding: 3 !important;
@@ -63,6 +67,10 @@ h4 {
 .parrafo-testimonios {
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.container-noticias {
+    margin-top: 7rem;
 }
 
 /*Footer*/

@@ -73,10 +73,23 @@ section div {
     background: #BB1515;
     background: linear-gradient(90deg,rgba(187, 21, 21, 1) 0%, rgba(85, 10, 10, 1) 100%);   
     width: 300px;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 40px;
     border-radius: 100px;
     border: 2px solid #303030;
+    font-size: 20px;
 }
 
+.bt-noticias {
+    margin: 0 0 0 60px;
+}
 
+.bt-evento {
+    font-size: 30px;
+    width: 350px;
+}
+
+.section-button {
+    align-items: center;
+
+}
 

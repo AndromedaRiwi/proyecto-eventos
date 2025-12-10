@@ -4,6 +4,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     font-style: normal;
+    background-color: #271F1E;
 }
 
 /*Header*/
@@ -23,11 +24,7 @@ header {
     margin-right: 0 !important;
 }
 
-.fs-6 {
-    font-size: 20px !important;
-}
-
-.navbar-link {
+.fs-6, .navbar-link {
     font-size: 20px !important;
 }
 
@@ -42,12 +39,35 @@ header {
 
 /*Main*/
 
+.noticias-img {
+    width: 400px;
+    height: 350px;
+    border: 2px solid #553726;
+    border-radius: 20px;
+}
 
+.row {
+    --bs-gutter-x: 0;
+}
+
+h4 {
+    font-size: 5em ;
+    margin-bottom: 0;
+}
+
+.h4-testimonios {    
+    padding-bottom: 0;
+}
+
+
+.parrafo-testimonios {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
 /*Footer*/
 footer {
     background-color: #553726;
     position: absolute;
-    bottom: 0;
     width: 100%;
 }

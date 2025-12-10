@@ -9,7 +9,7 @@ body{
 .dashboard-navegation li a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px 20px;
     display: block;
     
@@ -26,4 +26,28 @@ body{
 .dashboard-navegation{
     list-style: none;
     padding: 0;
+}
+
+.aside-nav{
+    background-color: #3E3535;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.aside-logo{
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.aside-nav h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dashboard-navegation li{
+    color: white;
 }

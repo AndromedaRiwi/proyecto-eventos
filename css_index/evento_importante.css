@@ -23,8 +23,17 @@ header {
     margin-right: 0 !important;
 }
 
-.fs-6{
+.fs-6, .navbar-link{
     font-size: 20px !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/proyecto-eventos/img/logos/menu.png)
 }
 
 /*Footer*/

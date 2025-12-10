@@ -9,7 +9,7 @@ body{
 .dashboard-navegation li a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 22px;
     padding: 10px 20px;
     display: block;
     
@@ -49,5 +49,49 @@ body{
     text-align: center;
 }
 .dashboard-navegation li{
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 18px;
+    margin: 10px auto 15px;
+}
+
+.search-projects{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.view-projects{
+    padding: 0;
+    margin-bottom: 20px;
     color: white;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    border-left: 1px solid white;
+    
+}
+
+.view-projects li a{
+    text-decoration: none;
+    color: white;
+}
+
+.view-projects li a:hover{
+    color: #FF7F50;
+    
+}
+
+.search-projects li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 25px;
+}
+
+.search-projects li a:hover{
+    color: #FF7F50;
+    
 }

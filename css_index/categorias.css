@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+    width: auto !important;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #271F1E;
+}
+
+/*Header*/
+header {
+    background-color: #553726;
+}
+
+.navbar {
+    padding: 3 !important;
+    margin: 3 !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.fs-6, .navbar-link{
+    font-size: 20px !important;
+}
+
+/*Footer*/
+footer {
+    background-color: #553726;
+    position: absolute;
+    width: 100%;
+}
+
+#taco {
+    border-radius: 20px;
+}
+#salchi {
+    border-radius: 20px;
+}
+#burger {
+    border-radius: 20px;
+}
+#pizza {
+    border-radius: 20px;
+}
+#dog {
+    border-radius: 20px;
+}
+#sushi {
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #271F1E;
+}

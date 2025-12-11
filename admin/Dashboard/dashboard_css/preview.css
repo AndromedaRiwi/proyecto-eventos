@@ -1,0 +1,97 @@
+body{
+    background-color: #271F1E;
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    min-height: 100vh;
+}
+
+.dashboard-navegation li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    display: block;
+    
+    
+}
+
+.dashboard-navegation li a:hover{
+    color: #FF7F50;
+    border: 1px solid #686261;
+    background-color: #686261;
+    border-radius: 15px;
+    
+}
+.dashboard-navegation{
+    list-style: none;
+    padding: 0;
+}
+
+.aside-nav{
+    background-color: #3E3535;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.aside-logo{
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.aside-nav h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dashboard-navegation li{
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 18px;
+    margin: 10px auto 15px;
+}
+
+.search-projects{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.view-projects{
+    padding: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    border-left: 1px solid white;
+    
+}
+
+.view-projects li a{
+    text-decoration: none;
+    color: white;
+}
+
+.view-projects li a:hover{
+    color: #FF7F50;
+    
+}
+
+.search-projects li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 25px;
+}
+
+.search-projects li a:hover{
+    color: #FF7F50;
+    
+}

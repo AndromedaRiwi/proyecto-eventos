@@ -1,0 +1,85 @@
+        body {
+            background-color: #231A18;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Encabezado */
+        .top-bar {
+            background-color: #6A3E26;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .center-title {
+            background-color: #C97A4A;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 900;
+            padding: 15px 0;
+        }
+
+        /* Caja del formulario */
+        .form-box {
+            background-color: #C97A4A;
+            width: 60%;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .form-content {
+            background: white;
+            padding: 30px;
+            color: black;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #F8EDE4;
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+        }
+
+        .row input {
+            width: 90%;
+        }
+
+        .btn-buy {
+            background-color: #E5B79B;
+            border: none;
+            padding: 8px 25px;
+            font-weight: bold;
+        }
+
+        .btn-buy:hover {
+            background-color: #d8a183;
+        }
+
+        .cart-icon {
+            font-size: 35px;
+            margin-right: 15px;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .back-link a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }

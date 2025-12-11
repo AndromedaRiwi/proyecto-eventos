@@ -4,6 +4,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     font-style: normal;
+    background-color: #271F1E;
 }
 
 /*Header*/
@@ -31,6 +32,28 @@ header {
 footer {
     background-color: #553726;
     position: absolute;
-    bottom: 0;
     width: 100%;
+}
+
+#taco {
+    border-radius: 20px;
+}
+#salchi {
+    border-radius: 20px;
+}
+#burger {
+    border-radius: 20px;
+}
+#pizza {
+    border-radius: 20px;
+}
+#dog {
+    border-radius: 20px;
+}
+#sushi {
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #271F1E;
 }

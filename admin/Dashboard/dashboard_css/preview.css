@@ -11,9 +11,7 @@ body{
     color: white;
     font-size: 22px;
     padding: 10px 20px;
-    display: block;
-    
-    
+    display: block;   
 }
 
 .dashboard-navegation li a:hover{
@@ -21,8 +19,8 @@ body{
     border: 1px solid #686261;
     background-color: #686261;
     border-radius: 15px;
-    
 }
+
 .dashboard-navegation{
     list-style: none;
     padding: 0;
@@ -35,6 +33,9 @@ body{
     padding: 20px;
     box-sizing: border-box;
     position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .aside-logo{
@@ -219,6 +220,7 @@ li h3{
     width: auto;
 }
 
+<<<<<<< HEAD
 .menu-desplegable{
     display: flex;
     margin-left: 300px;
@@ -309,3 +311,43 @@ th {
     color: #ffffff;
     ;
 }
+=======
+/*menu*/
+
+main {
+    margin-left: 250px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/*En movil pasar toda la info para abajo*/
+@media (max-width: 991.98px) {
+      .aside-nav {
+        position: static;
+        width: 100%;
+        height: auto;
+      }
+      main {
+        margin-left: 0 !important;
+      }
+}
+
+.col-vistas, .card-dashboard{
+    background-color: #E9CAB7;
+}
+
+.img-users {
+    max-height: 380px; 
+    width: auto;
+}
+
+.img-dispositivos {
+    max-width: 100%; 
+    height: auto;
+}
+
+.img-ubicacion{
+    max-width: 320px;
+}
+                           
+>>>>>>> valentina-palacio

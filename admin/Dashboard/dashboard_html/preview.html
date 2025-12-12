@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dahboard Food|Master</title>    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
     <link rel="stylesheet" href="/proyecto-eventos/admin/Dashboard/dashboard_css/preview.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,16 +36,6 @@
     <header>
         <nav class="nav-bartop">
             
-            <div class="dashboard-left">
-                <ul>
-                    <img src="/img/logos/menu.png" alt="">
-                    <li><a href="/admin/Dashboard/dashboard_html/detalles.html"><img src="/img/logos/shopping.png" alt=""></a></li>
-                    <li><h3>Dashboard / </h3></li>
-                    <li><a href="/admin/Dashboard/dashboard_html/preview.html" class="root-link">PREVIEW</a></li>
-                </ul>
-            </div>
-        
-
         <div class="dashboard-left">
             <ul>
                 <img src="/proyecto-eventos/img/logos/menu.png" alt="">
@@ -63,26 +56,88 @@
                 <li><h3>ADMIN</h3></li>
                 <li><a href=""><img src="/proyecto-eventos/img/logos/login.png" alt="" class="user-icon"></a></li>
             </ul>
-
-
-            <div class="dashboard-right">
-                <ul class="nav-baright">
-                    <li class="search-button"><img src="/img/logos/magnifiying-glass.png" alt=""><input type="text" placeholder="BUSCAR"></li>
-                    <li><a href=""><img src="/img/logos/dom.png" alt=""></a></li>
-                    <li><a href=""><img src="/img/logos/recuperar.png" alt=""></a></li>
-                    <li><a href=""><img src="/img/logos/editar.png" alt=""></a></li>
-                    <li><a href=""><img src="/img/logos/campanas.png" alt="" class="bell-icon"></a></li>
-                    <li><h3>ADMIN</h3></li>
-                    <li><a href=""><img src="/img/logos/login.png" alt="" class="user-icon"></a></li>
-                </ul>
                 
             </div>
         </nav>
     </header>
-    <hr>
     <main>
         <div class="container py-4">
-            
+
+            <div class="row g-3 mb-4">
+                <div class="col-xs-12 col-sm col-md-3 ">
+                    <div class="col-vistas h-100 p-3 rounded-3">
+                        <h3>Vistas</h3>
+                        <h4 class="mb-0">721K</h4>
+                        <small class="fw-light">+11.01%</small>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm col-md-3">
+                    <div class="col-vistas h-100 p-3 rounded-3">
+                        <h3>Vistas</h3>
+                        <h4 class="mb-0">367K</h4>
+                        <small class="fw-light">-0.03%</small>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm col-md-3 ">
+                    <div class="col-vistas h-100 p-3 rounded-3">
+                        <h3>Nuevos Usuarios</h3>
+                        <h4 class="mb-0">1,156K</h4>
+                        <small class="fw-light">+15.03%</small>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm col-md-3">
+                    <div class="col-vistas h-100 p-3 rounded-3">
+                        <h3>Usuarios activos</h3>
+                        <h4 class="mb-0">239K</h4>
+                        <small class="fw-light">+6.08%</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12 col-lg-8">
+                    <div class="card-dashboard rounded-3 p-4 h-100">
+                        <h5 class="mb-4">Total Users | Total Projects | Operating Status</h5>
+                        <div class="d-flex justify-content-center align-items-center">
+                        <img src="/proyecto-eventos/img/logos/chart-total-users.png" 
+                            alt="Gráfico de usuarios y proyectos" 
+                            class="img-fluid img-users" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card-dashboard rounded-3 p-4 h-100">
+                        <h5 class="mb-4">TRÁFICO POR SITIO WEB</h5>
+                        <img src="/proyecto-eventos/img/logos/trafico-sitio-web.png" 
+                            alt="Tráfico por sitio web" 
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-lg-6">
+                    <div class="card-dashboard rounded-3 p-4 h-100">
+                        <h5 class="mb-4">TRÁFICO POR DISPOSITIVOS</h5>
+                        <div class="d-flex justify-content-center">
+                        <img src="/proyecto-eventos/img/logos/trafico-dispositivos.png" 
+                            alt="Tráfico por dispositivos" 
+                            class="img-fluid img-dispositivos" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card-dashboard rounded-3 p-4 h-100 d-flex flex-column  align-items-center">
+                        <h5 class="mb-4 ">TRÁFICO POR UBICACIÓN</h5>
+                        <div class="my-3">
+                        <img src="/proyecto-eventos/img/logos/trafico-ubicacion.png" 
+                            alt="Tráfico por ubicación" 
+                            class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
 </body>

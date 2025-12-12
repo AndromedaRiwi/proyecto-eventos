@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dahboard Food|Master</title>    
-    <link rel="stylesheet" href="/admin/Dashboard/dashboard_css/preview.css"> 
+    <title>Dahboard Food|Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">  
+    
+    <link rel="stylesheet" href="/proyecto-eventos/admin/Dashboard/dashboard_css/preview.css"> 
 </head>
 <body>
     <aside class="aside-nav">
-        <a href="index.html"><img src="/img/logos/logo_FoodMaster.png" alt="" class="aside-logo"></a>
+        <a href="/proyecto-eventos/index.html"><img src="/proyecto-eventos/img/logos/logo_FoodMaster.png" alt="" class="aside-logo"></a>
         <ul class="search-projects">
             <li><a href="">RECIENTES</a></li>
             <li><a href="">FAVORITOS</a></li>
@@ -27,35 +29,100 @@
             <li><a href="./lista.html">LISTA DE EVENTOS</a></li>
             <li><a href="./crear.html">CREAR EVENTO</a></li>
             <li><a href="./editar.html">EDITAR EVENTO</a></li>
-            <li><a href="/admin/Dashboard/dashboard_html/detalles.html">DETALLES DE EVENTO</a></li>
+            <li><a href="/proyecto-eventos/admin/Dashboard/dashboard_html/detalles.html">DETALLES DE EVENTO</a></li>
         </ul>
     </aside>
-    <main></main>
     <nav class="nav-bartop">
         
         <div class="dashboard-left">
             <ul>
-                <img src="/img/logos/menu.png" alt="">
-                <li><a href="/admin/Dashboard/dashboard_html/detalles.html"><img src="/img/logos/shopping.png" alt=""></a></li>
+                <img src="/proyecto-eventos/img/logos/menu.png" alt="">
+                <li><a href="/proyecto-eventos/admin/Dashboard/dashboard_html/detalles.html"><img src="/proyecto-eventos/img/logos/shopping.png" alt=""></a></li>
                 <li><h3>Dashboard / </h3></li>
-                <li><a href="/admin/Dashboard/dashboard_html/preview.html" class="root-link">PREVIEW</a></li>
+                <li><a href="/proyecto-eventos/admin/Dashboard/dashboard_html/lista.html" class="root-link">LISTA DE EVENTOS</a></li>
             </ul>
         </div>
     
 
         <div class="dashboard-right">
             <ul class="nav-baright">
-                <li class="search-button"><img src="/img/logos/magnifiying-glass.png" alt=""><input type="text" placeholder="BUSCAR"></li>
-                <li><a href=""><img src="/img/logos/dom.png" alt=""></a></li>
-                <li><a href=""><img src="/img/logos/recuperar.png" alt=""></a></li>
-                <li><a href=""><img src="/img/logos/editar.png" alt=""></a></li>
-                <li><a href=""><img src="/img/logos/campanas.png" alt="" class="bell-icon"></a></li>
+                <li class="search-button"><img src="/proyecto-eventos/img/logos/magnifiying-glass.png" alt=""><input type="text" placeholder="BUSCAR"></li>
+                <li><a href=""><img src="/proyecto-eventos/img/logos/dom.png" alt=""></a></li>
+                <li><a href=""><img src="/proyecto-eventos/img/logos/recuperar.png" alt=""></a></li>
+                <li><a href=""><img src="/proyecto-eventos/img/logos/editar.png" alt=""></a></li>
+                <li><a href=""><img src="/proyecto-eventos/img/logos/campanas.png" alt="" class="bell-icon"></a></li>
                 <li><h3>ADMIN</h3></li>
-                <li><a href=""><img src="/img/logos/login.png" alt="" class="user-icon"></a></li>
+                <li><a href=""><img src="/proyecto-eventos/img/logos/login.png" alt="" class="user-icon"></a></li>
             </ul>
             
         </div>
     </nav>
     <hr>
+    <main>
+        <div>
+        <h1 class="menu-desplegable">HOY</h1>
+        </div>
+        <div class="content-area">
+            <table class="table table-striped text-dark">
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Organizador</th>
+                    <th>Categoría</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="/proyecto-eventos/img/img_eventos/pizza.png"></td>
+                    <td>Tulio Recomienda</td>
+                    <td>Evento de Comida</td>
+                    <td>01/12/2025 - 20/12/2025</td>
+                    <td class="status in-progress">In Progress</td>
+                </tr>
+
+                <tr>
+                    <td><img src="/proyecto-eventos/img/img_eventos/salchi.png"></td>
+                    <td>Tulio Recomienda</td>
+                    <td>Evento de Comida</td>
+                    <td>10/01/2025 - 30/01/2025</td>
+                    <td class="status complete">Complete</td>
+                </tr>
+
+                <tr>
+                    <td><img src="/proyecto-eventos/img/img_eventos/tacos.png"></td>
+                    <td>Tulio Recomienda</td>
+                    <td>Evento de Comida</td>
+                    <td>06/07/2026 - 26/07/2026</td>
+                    <td class="status pending">Pending</td>
+                </tr>
+
+                <tr>
+                    <td><img src="/proyecto-eventos/img/img_eventos/sushi.png"></td>
+                    <td>Tulio Recomienda</td>
+                    <td>Evento de Comida</td>
+                    <td>02/04/2026 - 10/04/2026</td>
+                    <td class="status approved">Approved</td>
+                </tr>
+            </tbody>
+        </table>
+
+        </div>
+        
+        <div class="notifications">
+            <h5>Notificaciones</h5>
+        <div class="notif-item">Tienes un problema que resolver<br><small>Just now</small></div>
+
+        <div class="notif-item">Nuevo usuario registrado<br><small>59 minutes ago</small></div>
+
+        <div class="notif-item">Revisar reporte pendiente<br><small>12 hours ago</small></div>
+
+        <div class="notif-item">Andy comenzó un evento<br><small>Today, 11:59 AM</small></div>
+
+        </div>
+
+        
+    </main>
 </body>
 </html>

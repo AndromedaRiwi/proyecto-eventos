@@ -218,3 +218,94 @@ li h3{
     height: 45px;
     width: auto;
 }
+
+.menu-desplegable{
+    display: flex;
+    margin-left: 300px;
+    color: white;
+    font-size: 25px;
+}
+
+.content-area {
+            margin-left: 240px;
+            margin-right: 340px;
+            padding: 20px;
+        }
+
+.notifications {
+            width: 300px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: #1e1e1e;
+            padding: 20px;
+            border-left: 1px solid #444;
+        }
+
+.notif-item {
+    background: #2a2a2a;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+table {
+    background: #e4e8f2;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th {
+    background: #d3b59f;
+    color: #000;
+}
+
+        td img {
+            width: 40px;
+            border-radius: 6px;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        .status.in-progress {
+            color: #4da3ff;
+        }
+
+        .status.approved {
+            color: #42e65c;
+        }
+
+        .status.pending {
+            color: #ffca3a;
+        }
+
+        .status.complete {
+            color: #6ae675;
+        }
+.notifications {
+            width: 300px;
+            position: fixed;
+            right: 0;
+            top:128px;
+            bottom: 0;
+            background: #4A3F3B;
+            padding: 20px;
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+        
+        }
+
+.notif-item {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    ;
+}
+
+.notifications h5 {
+    color: #ffffff;
+    ;
+}

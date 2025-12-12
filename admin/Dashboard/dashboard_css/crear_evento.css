@@ -218,3 +218,113 @@ li h3{
     height: 45px;
     width: auto;
 }
+
+/*-------------------------------------------------------------------------*/
+.search-projects,
+.view-projects,
+.dashboard-navegation {
+    list-style: none;
+    padding: 0;
+}
+
+.search-projects {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-projects li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 25px;
+}
+
+.search-projects li a:hover {
+    color: #FF7F50;
+}
+
+.view-projects {
+    padding: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    border-left: 1px solid white;
+}
+
+.view-projects li a {
+    text-decoration: none;
+    color: white;
+}
+
+.view-projects li a:hover {
+    color: #FF7F50;
+}
+
+.dashboard-navegation {
+    margin-top: 50px;
+}
+
+.dashboard-navegation li {
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 18px;
+    margin: 10px auto 15px;
+}
+
+.dashboard-navegation li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.dashboard-navegation li a:hover {
+    color: #FF7F50;
+    border: 1px solid #686261;
+    background-color: #686261;
+    border-radius: 15px;
+}
+
+.main-content {
+    margin-left: 250px; /* to offset the sidebar */
+    padding: 20px;
+}
+
+.card {
+    background-color: #4A3F3F;
+    border-radius: 15px;
+}
+
+.card h4 {
+    font-size: 22px;
+    color: white;
+}
+
+.card button {
+    background-color: #FF7F50;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.card button:hover {
+    background-color: #FF5722;
+}
+
+.form-group label {
+    color: white;
+}
+
+.form-control, .form-control-file {
+    border-radius: 10px;
+}
+
+button#deleteImageBtn {
+    margin-top: 10px;
+}

@@ -4,6 +4,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     font-style: normal;
+    background-color: #271F1E;
 }
 
 /*Header*/
@@ -23,6 +24,11 @@ header {
     margin-right: 0 !important;
 }
 
+.navbar-brand:hover {
+    border: 4px solid #9a624200; 
+    animation: bounce 0.6s ease;
+}
+
 .fs-6, .navbar-link{
     font-size: 20px !important;
 }
@@ -36,10 +42,39 @@ header {
     background-image: url(/proyecto-eventos/img/logos/menu.png)
 }
 
+/*Main*/
+.row-eventos {
+    background-color: #271F1E;
+    
+}
+
+.col-img {
+    margin-top: 90px;
+    padding-left: 10%;
+    flex-direction: column; /* Apila imagen y texto verticalmente */
+    align-items: center;gap: 3px;
+}
+
+#titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    color: #F8D6B0;
+}
+
+.description {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin-top: 70px;
+    max-width: 500px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
 /*Footer*/
 footer {
     background-color: #553726;
     position: absolute;
-    bottom: 0;
     width: 100%;
 }
